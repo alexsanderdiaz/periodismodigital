@@ -2,11 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { name: "Malverde", href: "/#malverde" },
   { name: "Crónica", href: "/#cronica" },
-  { name: "Video", href: "/#video" },
-  { name: "Podcast", href: "/#podcast" },
   { name: "Poster", href: "/#poster" },
+  { name: "Podcast", href: "/#podcast" },
+  { name: "Video", href: "/#video" },
 ];
 
 export default function Navbar() {
